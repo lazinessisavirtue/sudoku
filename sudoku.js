@@ -1,6 +1,6 @@
 sudoko = new Vue({
-    el: '#app',
+    el: '#sudoku-table',
     data: {
-        message: 'Hefgdllo Vue.js!'
+        board: [[1, 2], [3, 4]],
     },
 });
