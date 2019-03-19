@@ -5,8 +5,9 @@
   <body>
     <table id="sudoku-table">
       <tbody>
-        <tr>
-          <td>
+        <tr v-for="row in board">
+          <td v-for="square in row">
+            {{ square }}
           </td>
         </tr>
       </tbody>
