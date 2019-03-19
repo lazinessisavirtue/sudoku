@@ -1,8 +1,6 @@
-window.addEventListener('load', function () {
-    new Vue({
-        el: '#app',
-        data: {
-            message: 'Hefgdllo Vue.js!'
-        },
-    });
-})
+sudoko = new Vue({
+    el: '#app',
+    data: {
+        message: 'Hefgdllo Vue.js!'
+    },
+});
