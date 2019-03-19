@@ -5,9 +5,9 @@
   <body>
     <table id="sudoku-table">
       <tbody>
-        <tr v-for="i in 2">
-          <td v-for="j in 2">
-            {{ board[i][j] }}
+        <tr v-for="r in broad">
+          <td v-for="s in r">
+            {{ s }}
           </td>
         </tr>
       </tbody>
